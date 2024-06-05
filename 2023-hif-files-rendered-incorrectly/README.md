@@ -39,3 +39,5 @@ The above described effects also seem to happen universally with [JPEG XL](https
 Here's one of those, for completeness' sake:
 
 ![the same bird again](DSCF4018.JXL)
+
+Props to the Safari team for being the only modern web browser to render all these images, by the way. Just, please, do it correctly.
