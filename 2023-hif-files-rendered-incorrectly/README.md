@@ -20,6 +20,8 @@ I *suspect* it's being caused by the `nclx` color profile on the HEIF. Apple HEI
 
 The above JPEG was created with ImageMagick, but I have confirmed the same behavior when a RAW is re-rendered in-camera as JPEG too. **The JPEG colors are the intended colors.**
 
+This is pure speculation but I suspect Apple internally has re-created a similar bug that plagued libheif: https://github.com/strukturag/libheif/issues/288
+
 ## Consequences
 
 - The image's shadows appear crushed (best case)
