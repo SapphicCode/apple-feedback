@@ -18,7 +18,7 @@ This issue happens **everywhere**. Photos, Preview, Quick Look, you name it, if 
 
 I *suspect* it's being caused by the `nclx` color profile on the HEIF. Apple HEIFs don't use this, so they don't run into the same problems.
 
-The above JPEG was created with ImageMagick, but I have confirmed the same behavior when a RAW is re-rendered in-camera as JPEG too. **The JPEG colors are the intended colors.**
+The above JPEG was created with ImageMagick, but I have confirmed the same behavior when a RAW is re-rendered in-camera as JPEG too. **The JPEG colors are the intended colors.** And indeed, on a modern Linux system with KDE Gwenview, they look identical.
 
 This is pure speculation but I suspect Apple internally has re-created a similar bug that plagued libheif: https://github.com/strukturag/libheif/issues/288
 
